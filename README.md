@@ -7,3 +7,4 @@ Utilizando la librería MediaPipe de Google para el rastreo de puntos faciales, 
 Este sistema puede ser particularmente útil para personas con discapacidades motoras, permitiéndoles interactuar con una computadora sin la necesidad de dispositivos de entrada tradicionales.
 
 **Cursor Seguidor de Ojo:** https://youtu.be/-jtRqX5sy7Y
+**Presentación Google Colab:** https://colab.research.google.com/drive/1HO5nRGc2w-inS3n2uJyUvN5wYHBnf2Jr?authuser=0#scrollTo=O5bESMkAcETF 
