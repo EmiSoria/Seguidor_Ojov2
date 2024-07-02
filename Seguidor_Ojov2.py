@@ -54,20 +54,20 @@ while True:
 
         # Ejecutar clics solo si no se están parpadeando ambos ojos al mismo tiempo
         if left_blink and right_blink:
-            print("No click (both eyes blinking)")
+            print("No click (ambos ojos cerrados)")
         elif left_blink:
             if not left_click_active:
-                print('Left mouse down')
+                print('Mouse Izquierdo Bajo')
                 pyautogui.mouseDown()  # Mantener clic izquierdo presionado
                 left_click_active = True
         else:
             if left_click_active:
-                print('Left mouse up')
+                print('Mouse Izquierdo Alto')
                 pyautogui.mouseUp()  # Soltar clic izquierdo
                 left_click_active = False
 
         if right_blink:
-            print('Right click')
+            print('Click Derecho')
             pyautogui.click(button='right')  # Hacer clic derecho
             pyautogui.sleep(1)
 
