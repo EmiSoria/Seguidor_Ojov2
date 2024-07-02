@@ -5,3 +5,5 @@ Uno de los usos más innovadores de la visión artificial es el control de dispo
 En este documento, se presenta un código en Python sobre un sistema de control de cursor mediante el parpadeo y el movimiento de los ojos. 
 Utilizando la librería MediaPipe de Google para el rastreo de puntos faciales, OpenCV para el procesamiento de imágenes y PyAutoGUI para la simulación de eventos del mouse. 
 Este sistema puede ser particularmente útil para personas con discapacidades motoras, permitiéndoles interactuar con una computadora sin la necesidad de dispositivos de entrada tradicionales.
+
+**Cursor Seguidor de Ojo:** https://youtu.be/-jtRqX5sy7Y
